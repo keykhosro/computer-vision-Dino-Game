@@ -67,7 +67,7 @@ Once the hand is detected, the next step is to recognize specific gestures to co
 This image shows the edge detection result for an open hand, clearly highlighting its structure.
 
 #### Line Detection with Hough Transform:
-![Hough Lines](2-6.png)
+![Hough Lines](2-6.jpg)
 
 The detected lines are overlaid in blue. Based on the number of lines, the system identifies the gesture as "Open Hand."
 
