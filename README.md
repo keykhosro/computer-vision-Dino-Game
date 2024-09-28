@@ -33,7 +33,10 @@ In this initial detection, background elements are falsely recognized as hand re
 ![Final Mask](final_mask_easy.jpg)
 
 After refining the model and applying additional filters, the hand is correctly segmented, with minimal background interference.
+#### detect hand by finding biggest area
 ![Final Mask](3.png)
+
+#### crop
 ![Final Mask](4.jpg)
 ---
 
