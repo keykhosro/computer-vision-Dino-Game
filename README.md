@@ -25,15 +25,16 @@ The first step involves detecting the hand in the video feed. This part is based
 ### Example Output:
 
 #### Initial Hand Detection:
-![Initial Mask](path/to/initial_mask.png)
+![Initial Mask](skin_mask_easy.jpg)
 
 In this initial detection, background elements are falsely recognized as hand regions.
 
 #### Improved Detection After Calibration:
-![Final Mask](path/to/final_mask.png)
+![Final Mask](final_mask_easy.jpg)
 
 After refining the model and applying additional filters, the hand is correctly segmented, with minimal background interference.
-
+![Final Mask](3.png)
+![Final Mask](4.jpg)
 ---
 
 ## Part 2: **Gesture Recognition (`part2.py`)**
@@ -58,12 +59,12 @@ Once the hand is detected, the next step is to recognize specific gestures to co
 ### Example Output:
 
 #### Canny Edge Detection:
-![Edge Detection](path/to/edge_detection.png)
+![Edge Detection](2-5.png)
 
 This image shows the edge detection result for an open hand, clearly highlighting its structure.
 
 #### Line Detection with Hough Transform:
-![Hough Lines](path/to/hough_lines.png)
+![Hough Lines](2-6.png)
 
 The detected lines are overlaid in blue. Based on the number of lines, the system identifies the gesture as "Open Hand."
 
@@ -84,12 +85,6 @@ The final part of the project integrates the hand detection and gesture recognit
 3. **Gesture Feedback and Game Interaction**:  
    The program provides visual feedback in the console, indicating which gesture was recognized and the corresponding game action.
 
-### Example Output:
-
-#### Real-Time Gesture Recognition:
-![Real-Time Recognition](path/to/real_time_recognition.png)
-
-This image shows the hand being detected and classified correctly as an "Open Hand," which triggers a jump in the Dino game.
 
 ---
 
